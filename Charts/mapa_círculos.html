@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_55b04a7ac6f2db68ffbbed6f2024042b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_55b04a7ac6f2db68ffbbed6f2024042b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_55b04a7ac6f2db68ffbbed6f2024042b = L.map(
+                "map_55b04a7ac6f2db68ffbbed6f2024042b",
+                {
+                    center: [-28.0, 24.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_389afaf8f65cab36916be2911af0051f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_389afaf8f65cab36916be2911af0051f.addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+            var circle_marker_6e1341e5957ec0ed8fa76fce61e61e78 = L.circleMarker(
+                [-26.205, 28.049722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 85.118, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_8afda8235ce834c324822ad02ab16c2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac0335a67b9ee6d6c0cdcf65047bb38e = $(`<div id="html_ac0335a67b9ee6d6c0cdcf65047bb38e" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Johannesburg<br><b>Volume:</b> 85118 m³<br><b>Peso Relativo:</b> 33.55 %<br><b>Coordenadas:</b> -26.205, 28.049722</div>`)[0];
+                popup_8afda8235ce834c324822ad02ab16c2f.setContent(html_ac0335a67b9ee6d6c0cdcf65047bb38e);
+            
+        
+
+        circle_marker_6e1341e5957ec0ed8fa76fce61e61e78.bindPopup(popup_8afda8235ce834c324822ad02ab16c2f)
+        ;
+
+        
+    
+    
+            var circle_marker_eed185eba333e11f94082d2d3bd80d77 = L.circleMarker(
+                [-25.7459277, 28.1879101],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 47.944, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_2b3965c16eb2b924e80b0e00ecc39c8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2a9fa53a0bb8a788b585c5c167490d0 = $(`<div id="html_a2a9fa53a0bb8a788b585c5c167490d0" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Pretoria<br><b>Volume:</b> 47944 m³<br><b>Peso Relativo:</b> 18.9 %<br><b>Coordenadas:</b> -25.7459277, 28.1879101</div>`)[0];
+                popup_2b3965c16eb2b924e80b0e00ecc39c8e.setContent(html_a2a9fa53a0bb8a788b585c5c167490d0);
+            
+        
+
+        circle_marker_eed185eba333e11f94082d2d3bd80d77.bindPopup(popup_2b3965c16eb2b924e80b0e00ecc39c8e)
+        ;
+
+        
+    
+    
+            var circle_marker_f6fc2afd19e88060d3b2c4e763820ce2 = L.circleMarker(
+                [-29.861825, 31.009909],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36.306, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_e9cac35529eaa12dd2a18b4ba18a6d38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4197913d11745d36b0cc761f51d0098 = $(`<div id="html_f4197913d11745d36b0cc761f51d0098" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Durban<br><b>Volume:</b> 36306 m³<br><b>Peso Relativo:</b> 14.31 %<br><b>Coordenadas:</b> -29.861825, 31.009909</div>`)[0];
+                popup_e9cac35529eaa12dd2a18b4ba18a6d38.setContent(html_f4197913d11745d36b0cc761f51d0098);
+            
+        
+
+        circle_marker_f6fc2afd19e88060d3b2c4e763820ce2.bindPopup(popup_e9cac35529eaa12dd2a18b4ba18a6d38)
+        ;
+
+        
+    
+    
+            var circle_marker_b8b428de4de752eb4854e47cd0e8eda7 = L.circleMarker(
+                [-33.9288301, 18.4172197],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.728, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_26c392c6d10247f826344bb5f72b7e08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dacc0ddc0121ab142e90b9e75b60b5f9 = $(`<div id="html_dacc0ddc0121ab142e90b9e75b60b5f9" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Cape Town<br><b>Volume:</b> 16728 m³<br><b>Peso Relativo:</b> 6.59 %<br><b>Coordenadas:</b> -33.9288301, 18.4172197</div>`)[0];
+                popup_26c392c6d10247f826344bb5f72b7e08.setContent(html_dacc0ddc0121ab142e90b9e75b60b5f9);
+            
+        
+
+        circle_marker_b8b428de4de752eb4854e47cd0e8eda7.bindPopup(popup_26c392c6d10247f826344bb5f72b7e08)
+        ;
+
+        
+    
+    
+            var circle_marker_e73acfc89ebc62ecffdaf0740c08d52d = L.circleMarker(
+                [-26.2124639, 28.2617471],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.146, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_4867079c46acc0c4bd6c216a623f8dae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cba239771fef82f00e9b86001d33011 = $(`<div id="html_5cba239771fef82f00e9b86001d33011" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Boksburg<br><b>Volume:</b> 8146 m³<br><b>Peso Relativo:</b> 3.21 %<br><b>Coordenadas:</b> -26.2124639, 28.2617471</div>`)[0];
+                popup_4867079c46acc0c4bd6c216a623f8dae.setContent(html_5cba239771fef82f00e9b86001d33011);
+            
+        
+
+        circle_marker_e73acfc89ebc62ecffdaf0740c08d52d.bindPopup(popup_4867079c46acc0c4bd6c216a623f8dae)
+        ;
+
+        
+    
+    
+            var circle_marker_8aa3b1bdf5ddcbe676b39c4d478327c5 = L.circleMarker(
+                [-33.9618359, 25.6186512],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.716, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_857316d01b8749261bd66a8ba2b06632 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca5fb60cd53a861688f29fd4df49182d = $(`<div id="html_ca5fb60cd53a861688f29fd4df49182d" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Port Elizabeth<br><b>Volume:</b> 7716 m³<br><b>Peso Relativo:</b> 3.04 %<br><b>Coordenadas:</b> -33.9618359, 25.6186512</div>`)[0];
+                popup_857316d01b8749261bd66a8ba2b06632.setContent(html_ca5fb60cd53a861688f29fd4df49182d);
+            
+        
+
+        circle_marker_8aa3b1bdf5ddcbe676b39c4d478327c5.bindPopup(popup_857316d01b8749261bd66a8ba2b06632)
+        ;
+
+        
+    
+    
+            var circle_marker_7b3b00597583ce3541569500bb911c64 = L.circleMarker(
+                [-23.90449, 29.46885],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.504, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_1c42ff39c1782500701c41318cbffe12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4653b538b40b664030fbc48cb9aeaeb = $(`<div id="html_b4653b538b40b664030fbc48cb9aeaeb" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Paul Pietersburg<br><b>Volume:</b> 6504 m³<br><b>Peso Relativo:</b> 2.56 %<br><b>Coordenadas:</b> -23.90449, 29.46885</div>`)[0];
+                popup_1c42ff39c1782500701c41318cbffe12.setContent(html_b4653b538b40b664030fbc48cb9aeaeb);
+            
+        
+
+        circle_marker_7b3b00597583ce3541569500bb911c64.bindPopup(popup_1c42ff39c1782500701c41318cbffe12)
+        ;
+
+        
+    
+    
+            var circle_marker_d7f6c214303be4e432874961da483671 = L.circleMarker(
+                [-29.116395, 26.215496],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.216, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_b672b33f6d75230a9fd161b08cd0afd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86a8b76e9f13ae92423e41600ef8bdc2 = $(`<div id="html_86a8b76e9f13ae92423e41600ef8bdc2" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Bloemfontein<br><b>Volume:</b> 5216 m³<br><b>Peso Relativo:</b> 2.06 %<br><b>Coordenadas:</b> -29.116395, 26.215496</div>`)[0];
+                popup_b672b33f6d75230a9fd161b08cd0afd0.setContent(html_86a8b76e9f13ae92423e41600ef8bdc2);
+            
+        
+
+        circle_marker_d7f6c214303be4e432874961da483671.bindPopup(popup_b672b33f6d75230a9fd161b08cd0afd0)
+        ;
+
+        
+    
+    
+            var circle_marker_74d9fbfd83edecaff7f51225ea798d07 = L.circleMarker(
+                [-23.038326, 29.906665],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.273, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_13dac30b81804cf3c6d1590e0138f042 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9439ff7655cd89e58bfb11d985698689 = $(`<div id="html_9439ff7655cd89e58bfb11d985698689" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Makhado<br><b>Volume:</b> 4273 m³<br><b>Peso Relativo:</b> 1.68 %<br><b>Coordenadas:</b> -23.038326, 29.906665</div>`)[0];
+                popup_13dac30b81804cf3c6d1590e0138f042.setContent(html_9439ff7655cd89e58bfb11d985698689);
+            
+        
+
+        circle_marker_74d9fbfd83edecaff7f51225ea798d07.bindPopup(popup_13dac30b81804cf3c6d1590e0138f042)
+        ;
+
+        
+    
+    
+            var circle_marker_ab3ec1b51d9a84ea5234ca92fcd2bfa7 = L.circleMarker(
+                [-25.4729094, 30.9772719],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.663, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_df4046d13f7e8878fa0ecf5a683e95e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3596eff1328f6e642d37a942d969f32 = $(`<div id="html_f3596eff1328f6e642d37a942d969f32" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Nelspruit<br><b>Volume:</b> 3663 m³<br><b>Peso Relativo:</b> 1.44 %<br><b>Coordenadas:</b> -25.4729094, 30.9772719</div>`)[0];
+                popup_df4046d13f7e8878fa0ecf5a683e95e8.setContent(html_f3596eff1328f6e642d37a942d969f32);
+            
+        
+
+        circle_marker_ab3ec1b51d9a84ea5234ca92fcd2bfa7.bindPopup(popup_df4046d13f7e8878fa0ecf5a683e95e8)
+        ;
+
+        
+    
+    
+            var circle_marker_98a72bb8573c550ea031a4cf21c5eb6d = L.circleMarker(
+                [-33.0191604, 27.8998573],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.376, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_785832e2aa2f3f888cabf7de2b45bcf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c55455b32a63a9ae53214575e48f8c26 = $(`<div id="html_c55455b32a63a9ae53214575e48f8c26" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> East London<br><b>Volume:</b> 3376 m³<br><b>Peso Relativo:</b> 1.33 %<br><b>Coordenadas:</b> -33.0191604, 27.8998573</div>`)[0];
+                popup_785832e2aa2f3f888cabf7de2b45bcf4.setContent(html_c55455b32a63a9ae53214575e48f8c26);
+            
+        
+
+        circle_marker_98a72bb8573c550ea031a4cf21c5eb6d.bindPopup(popup_785832e2aa2f3f888cabf7de2b45bcf4)
+        ;
+
+        
+    
+    
+            var circle_marker_5bb753c1b5271e7d7f9c6f7588580a75 = L.circleMarker(
+                [-24.183333, 29.016667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.966, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_eb2bae54c1341f122ea9dffc992d6854 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cdee398fb2f4edff691cb93f890c092 = $(`<div id="html_3cdee398fb2f4edff691cb93f890c092" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Mokopane<br><b>Volume:</b> 2966 m³<br><b>Peso Relativo:</b> 1.17 %<br><b>Coordenadas:</b> -24.183333, 29.016667</div>`)[0];
+                popup_eb2bae54c1341f122ea9dffc992d6854.setContent(html_3cdee398fb2f4edff691cb93f890c092);
+            
+        
+
+        circle_marker_5bb753c1b5271e7d7f9c6f7588580a75.bindPopup(popup_eb2bae54c1341f122ea9dffc992d6854)
+        ;
+
+        
+    
+    
+            var circle_marker_9c0ab08b0cec1daef8c3bf33be00525d = L.circleMarker(
+                [-26.6747222, 27.9261111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.27, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_28bcdb0b7c52011b61fcf1dcaf8213ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b58dec37f11b6a58409661dd397c51e = $(`<div id="html_1b58dec37f11b6a58409661dd397c51e" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Vereeniging<br><b>Volume:</b> 2270 m³<br><b>Peso Relativo:</b> 0.89 %<br><b>Coordenadas:</b> -26.6747222, 27.9261111</div>`)[0];
+                popup_28bcdb0b7c52011b61fcf1dcaf8213ce.setContent(html_1b58dec37f11b6a58409661dd397c51e);
+            
+        
+
+        circle_marker_9c0ab08b0cec1daef8c3bf33be00525d.bindPopup(popup_28bcdb0b7c52011b61fcf1dcaf8213ce)
+        ;
+
+        
+    
+    
+            var circle_marker_c8b3b53b9d2a7ce1ee78e7e13266182b = L.circleMarker(
+                [-25.6297222, 27.7841667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.257, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_daa0b3bf4bd918ff5251a1ce5e08173b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f33aff3850ef440beff766fa7b1d65b = $(`<div id="html_1f33aff3850ef440beff766fa7b1d65b" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Brits<br><b>Volume:</b> 2257 m³<br><b>Peso Relativo:</b> 0.89 %<br><b>Coordenadas:</b> -25.6297222, 27.7841667</div>`)[0];
+                popup_daa0b3bf4bd918ff5251a1ce5e08173b.setContent(html_1f33aff3850ef440beff766fa7b1d65b);
+            
+        
+
+        circle_marker_c8b3b53b9d2a7ce1ee78e7e13266182b.bindPopup(popup_daa0b3bf4bd918ff5251a1ce5e08173b)
+        ;
+
+        
+    
+    
+            var circle_marker_5048c175c6ef5a01eb69638860e0e63a = L.circleMarker(
+                [-33.9597212, 22.4587148],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.098, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_5b7891d6c7b3d63a84d0c081096cc104 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6e3344b420a16c927337b54bb5f8029 = $(`<div id="html_d6e3344b420a16c927337b54bb5f8029" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> George<br><b>Volume:</b> 2098 m³<br><b>Peso Relativo:</b> 0.83 %<br><b>Coordenadas:</b> -33.9597212, 22.4587148</div>`)[0];
+                popup_5b7891d6c7b3d63a84d0c081096cc104.setContent(html_d6e3344b420a16c927337b54bb5f8029);
+            
+        
+
+        circle_marker_5048c175c6ef5a01eb69638860e0e63a.bindPopup(popup_5b7891d6c7b3d63a84d0c081096cc104)
+        ;
+
+        
+    
+    
+            var circle_marker_de9ad807f5c5e3ed7f2e38adc00506e0 = L.circleMarker(
+                [-25.665655, 27.241448],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.955, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_a6e4ce42866f971a5bc0b40931ef879d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8464808fe608cefb3e55a6697172fded = $(`<div id="html_8464808fe608cefb3e55a6697172fded" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Rustenburg<br><b>Volume:</b> 1955 m³<br><b>Peso Relativo:</b> 0.77 %<br><b>Coordenadas:</b> -25.665655, 27.241448</div>`)[0];
+                popup_a6e4ce42866f971a5bc0b40931ef879d.setContent(html_8464808fe608cefb3e55a6697172fded);
+            
+        
+
+        circle_marker_de9ad807f5c5e3ed7f2e38adc00506e0.bindPopup(popup_a6e4ce42866f971a5bc0b40931ef879d)
+        ;
+
+        
+    
+    
+            var circle_marker_cedf869e9c96cbd33fbb7912c65753a6 = L.circleMarker(
+                [-26.8625383, 26.6656814],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.512, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_8bbe06e26663a3478dff17bcc1077138 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5641ae3db90bf0a69182a1db3cddcb02 = $(`<div id="html_5641ae3db90bf0a69182a1db3cddcb02" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Klerksdorp<br><b>Volume:</b> 1512 m³<br><b>Peso Relativo:</b> 0.6 %<br><b>Coordenadas:</b> -26.8625383, 26.6656814</div>`)[0];
+                popup_8bbe06e26663a3478dff17bcc1077138.setContent(html_5641ae3db90bf0a69182a1db3cddcb02);
+            
+        
+
+        circle_marker_cedf869e9c96cbd33fbb7912c65753a6.bindPopup(popup_8bbe06e26663a3478dff17bcc1077138)
+        ;
+
+        
+    
+    
+            var circle_marker_a2e4fb4986697e628b57d5390dffde4e = L.circleMarker(
+                [-34.0277466, 18.5246526],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.512, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_c24265a0a4f61c5f5bd07cb5ceb60901 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be9a482a1718aeb9dd65dad12b910598 = $(`<div id="html_be9a482a1718aeb9dd65dad12b910598" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Phillipi<br><b>Volume:</b> 1512 m³<br><b>Peso Relativo:</b> 0.6 %<br><b>Coordenadas:</b> -34.0277466, 18.5246526</div>`)[0];
+                popup_c24265a0a4f61c5f5bd07cb5ceb60901.setContent(html_be9a482a1718aeb9dd65dad12b910598);
+            
+        
+
+        circle_marker_a2e4fb4986697e628b57d5390dffde4e.bindPopup(popup_c24265a0a4f61c5f5bd07cb5ceb60901)
+        ;
+
+        
+    
+    
+            var circle_marker_a556394dc95224a9df13ea1ff1d68a4e = L.circleMarker(
+                [-23.8319444, 30.1611111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.426, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_de0fda598173f60f4dae6b9867ae8782 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab7aeac63b1d9c7791eda7d968f5b32f = $(`<div id="html_ab7aeac63b1d9c7791eda7d968f5b32f" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Tzaneen<br><b>Volume:</b> 1426 m³<br><b>Peso Relativo:</b> 0.56 %<br><b>Coordenadas:</b> -23.8319444, 30.1611111</div>`)[0];
+                popup_de0fda598173f60f4dae6b9867ae8782.setContent(html_ab7aeac63b1d9c7791eda7d968f5b32f);
+            
+        
+
+        circle_marker_a556394dc95224a9df13ea1ff1d68a4e.bindPopup(popup_de0fda598173f60f4dae6b9867ae8782)
+        ;
+
+        
+    
+    
+            var circle_marker_152702c33619c7c0fe4c3b5172c54f9b = L.circleMarker(
+                [-28.2784238, 29.1332389],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.345, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_3d8b97e887508f218d3f1e52bbf9fd9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3174c3ff262ee5e9d9a60af92a0b6050 = $(`<div id="html_3174c3ff262ee5e9d9a60af92a0b6050" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Harrismith<br><b>Volume:</b> 1345 m³<br><b>Peso Relativo:</b> 0.53 %<br><b>Coordenadas:</b> -28.2784238, 29.1332389</div>`)[0];
+                popup_3d8b97e887508f218d3f1e52bbf9fd9b.setContent(html_3174c3ff262ee5e9d9a60af92a0b6050);
+            
+        
+
+        circle_marker_152702c33619c7c0fe4c3b5172c54f9b.bindPopup(popup_3d8b97e887508f218d3f1e52bbf9fd9b)
+        ;
+
+        
+    
+    
+            var circle_marker_5fb89d021c77255908ced6c38fdb60bc = L.circleMarker(
+                [-22.9676429, 30.4596582],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.342, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_747cb5b958e866fce0c12ae55f30665f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a5a4269590883c6c2abd3d75a71721c = $(`<div id="html_5a5a4269590883c6c2abd3d75a71721c" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Thohoyandou<br><b>Volume:</b> 1342 m³<br><b>Peso Relativo:</b> 0.53 %<br><b>Coordenadas:</b> -22.9676429, 30.4596582</div>`)[0];
+                popup_747cb5b958e866fce0c12ae55f30665f.setContent(html_5a5a4269590883c6c2abd3d75a71721c);
+            
+        
+
+        circle_marker_5fb89d021c77255908ced6c38fdb60bc.bindPopup(popup_747cb5b958e866fce0c12ae55f30665f)
+        ;
+
+        
+    
+    
+            var circle_marker_ee05734012a640d5d0230dac76ba3824 = L.circleMarker(
+                [-26.2982628, 28.1202109],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.105, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_076aab1378ac2158331f3ec9c52f125d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1119d3dfd328868e3029b207eb76797 = $(`<div id="html_d1119d3dfd328868e3029b207eb76797" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Alrode<br><b>Volume:</b> 105 m³<br><b>Peso Relativo:</b> 0.04 %<br><b>Coordenadas:</b> -26.2982628, 28.1202109</div>`)[0];
+                popup_076aab1378ac2158331f3ec9c52f125d.setContent(html_d1119d3dfd328868e3029b207eb76797);
+            
+        
+
+        circle_marker_ee05734012a640d5d0230dac76ba3824.bindPopup(popup_076aab1378ac2158331f3ec9c52f125d)
+        ;
+
+        
+    
+    
+            var circle_marker_0b374888ff40099ba555b5fc250dd809 = L.circleMarker(
+                [-29.6, 30.3788889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.858, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_2f8763cb3c217c0b33eb6f669b561b07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df4c89f3eeadeba659ffd86ac302f64b = $(`<div id="html_df4c89f3eeadeba659ffd86ac302f64b" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Pietermaritzburg<br><b>Volume:</b> 858 m³<br><b>Peso Relativo:</b> 0.34 %<br><b>Coordenadas:</b> -29.6, 30.3788889</div>`)[0];
+                popup_2f8763cb3c217c0b33eb6f669b561b07.setContent(html_df4c89f3eeadeba659ffd86ac302f64b);
+            
+        
+
+        circle_marker_0b374888ff40099ba555b5fc250dd809.bindPopup(popup_2f8763cb3c217c0b33eb6f669b561b07)
+        ;
+
+        
+    
+    
+            var circle_marker_98b230a0420a58448d2270f13a26da93 = L.circleMarker(
+                [-34.10556, 18.830564],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.786, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_9328cf96aa1dc342c94b892bbd7629e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9024d23dd0c280b27bbe06014f566c32 = $(`<div id="html_9024d23dd0c280b27bbe06014f566c32" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Strand<br><b>Volume:</b> 786 m³<br><b>Peso Relativo:</b> 0.31 %<br><b>Coordenadas:</b> -34.10556, 18.830564</div>`)[0];
+                popup_9328cf96aa1dc342c94b892bbd7629e7.setContent(html_9024d23dd0c280b27bbe06014f566c32);
+            
+        
+
+        circle_marker_98b230a0420a58448d2270f13a26da93.bindPopup(popup_9328cf96aa1dc342c94b892bbd7629e7)
+        ;
+
+        
+    
+    
+            var circle_marker_073ee858605f04633aff2fd0cb0a16ee = L.circleMarker(
+                [-27.982298, 26.737969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.757, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_8d5ae680bf53d4e6dfb8a46db9ddabc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22f550583a975424f8001210b1ff56c1 = $(`<div id="html_22f550583a975424f8001210b1ff56c1" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Welkom<br><b>Volume:</b> 757 m³<br><b>Peso Relativo:</b> 0.3 %<br><b>Coordenadas:</b> -27.982298, 26.737969</div>`)[0];
+                popup_8d5ae680bf53d4e6dfb8a46db9ddabc1.setContent(html_22f550583a975424f8001210b1ff56c1);
+            
+        
+
+        circle_marker_073ee858605f04633aff2fd0cb0a16ee.bindPopup(popup_8d5ae680bf53d4e6dfb8a46db9ddabc1)
+        ;
+
+        
+    
+    
+            var circle_marker_20271ea89cc70365898dec724e670c4c = L.circleMarker(
+                [-28.5587291, 29.7825044],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.665, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_218a25ef91e33484c7dfc3b0677fc65f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_200a3d99b58ad99ead2c4242e696661e = $(`<div id="html_200a3d99b58ad99ead2c4242e696661e" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Ladysmith<br><b>Volume:</b> 665 m³<br><b>Peso Relativo:</b> 0.26 %<br><b>Coordenadas:</b> -28.5587291, 29.7825044</div>`)[0];
+                popup_218a25ef91e33484c7dfc3b0677fc65f.setContent(html_200a3d99b58ad99ead2c4242e696661e);
+            
+        
+
+        circle_marker_20271ea89cc70365898dec724e670c4c.bindPopup(popup_218a25ef91e33484c7dfc3b0677fc65f)
+        ;
+
+        
+    
+    
+            var circle_marker_62cf51c2c409263b8e8d821e3237b3b3 = L.circleMarker(
+                [-28.456325, 21.241867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.652, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_0fd14762e6a2ca8cd664e0d89a8714d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc853ac10681992071aec055a5c379f5 = $(`<div id="html_fc853ac10681992071aec055a5c379f5" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Upington<br><b>Volume:</b> 652 m³<br><b>Peso Relativo:</b> 0.26 %<br><b>Coordenadas:</b> -28.456325, 21.241867</div>`)[0];
+                popup_0fd14762e6a2ca8cd664e0d89a8714d0.setContent(html_fc853ac10681992071aec055a5c379f5);
+            
+        
+
+        circle_marker_62cf51c2c409263b8e8d821e3237b3b3.bindPopup(popup_0fd14762e6a2ca8cd664e0d89a8714d0)
+        ;
+
+        
+    
+    
+            var circle_marker_98b5dfa633ef7220a49dc00def779f1a = L.circleMarker(
+                [-23.9058333, 29.4613889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.637, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_08da662c9f16ce2f8eb623ac577e5f3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_354576cc3611fb3f182e586f7cd6114f = $(`<div id="html_354576cc3611fb3f182e586f7cd6114f" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Polokwane<br><b>Volume:</b> 637 m³<br><b>Peso Relativo:</b> 0.25 %<br><b>Coordenadas:</b> -23.9058333, 29.4613889</div>`)[0];
+                popup_08da662c9f16ce2f8eb623ac577e5f3d.setContent(html_354576cc3611fb3f182e586f7cd6114f);
+            
+        
+
+        circle_marker_98b5dfa633ef7220a49dc00def779f1a.bindPopup(popup_08da662c9f16ce2f8eb623ac577e5f3d)
+        ;
+
+        
+    
+    
+            var circle_marker_b85491c452fe09182649a0e2caea078f = L.circleMarker(
+                [-23.315278, 30.725556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.626, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_544d45817795b5f23551c6a546524dd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14c70a6209c1c6048a859a333e490795 = $(`<div id="html_14c70a6209c1c6048a859a333e490795" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Giyani<br><b>Volume:</b> 626 m³<br><b>Peso Relativo:</b> 0.25 %<br><b>Coordenadas:</b> -23.315278, 30.725556</div>`)[0];
+                popup_544d45817795b5f23551c6a546524dd5.setContent(html_14c70a6209c1c6048a859a333e490795);
+            
+        
+
+        circle_marker_b85491c452fe09182649a0e2caea078f.bindPopup(popup_544d45817795b5f23551c6a546524dd5)
+        ;
+
+        
+    
+    
+            var circle_marker_6d916f1407d7a7d3b856e7872073be82 = L.circleMarker(
+                [-28.7383012, 24.7642251],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.598, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_a95fa9177a10c448e4c965d3bc92281f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_476f6c9e40f88efdf0a16b5b757cfca3 = $(`<div id="html_476f6c9e40f88efdf0a16b5b757cfca3" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Kimberley<br><b>Volume:</b> 598 m³<br><b>Peso Relativo:</b> 0.24 %<br><b>Coordenadas:</b> -28.7383012, 24.7642251</div>`)[0];
+                popup_a95fa9177a10c448e4c965d3bc92281f.setContent(html_476f6c9e40f88efdf0a16b5b757cfca3);
+            
+        
+
+        circle_marker_6d916f1407d7a7d3b856e7872073be82.bindPopup(popup_a95fa9177a10c448e4c965d3bc92281f)
+        ;
+
+        
+    
+    
+            var circle_marker_4890e0513e3c5553ca7157949fcf06ff = L.circleMarker(
+                [-22.3453519, 30.0268526],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.555, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_b1303fd2f4d03092b2a0fc2ae025d2bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12c20725e8b80dd83794f731ac5603ee = $(`<div id="html_12c20725e8b80dd83794f731ac5603ee" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Musina<br><b>Volume:</b> 555 m³<br><b>Peso Relativo:</b> 0.22 %<br><b>Coordenadas:</b> -22.3453519, 30.0268526</div>`)[0];
+                popup_b1303fd2f4d03092b2a0fc2ae025d2bd.setContent(html_12c20725e8b80dd83794f731ac5603ee);
+            
+        
+
+        circle_marker_4890e0513e3c5553ca7157949fcf06ff.bindPopup(popup_b1303fd2f4d03092b2a0fc2ae025d2bd)
+        ;
+
+        
+    
+    
+            var circle_marker_72a3c5c045b00762c3d7a484150572b0 = L.circleMarker(
+                [-28.2308333, 28.3088889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.534, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_f6058465416e3e10c922f62a25b72a6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f45dd7e481d4efd5064f869414b6ccc1 = $(`<div id="html_f45dd7e481d4efd5064f869414b6ccc1" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Bethlehem<br><b>Volume:</b> 534 m³<br><b>Peso Relativo:</b> 0.21 %<br><b>Coordenadas:</b> -28.2308333, 28.3088889</div>`)[0];
+                popup_f6058465416e3e10c922f62a25b72a6b.setContent(html_f45dd7e481d4efd5064f869414b6ccc1);
+            
+        
+
+        circle_marker_72a3c5c045b00762c3d7a484150572b0.bindPopup(popup_f6058465416e3e10c922f62a25b72a6b)
+        ;
+
+        
+    
+    
+            var circle_marker_ec29f923f3ae01ec2d4487919169ed3e = L.circleMarker(
+                [-25.4262165, 28.7045271],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.344, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_ae28cf9160e331ed4fed63c02e721822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b798a0afa8c7b5fca203f59f09b88b81 = $(`<div id="html_b798a0afa8c7b5fca203f59f09b88b81" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> KwaMhlanga<br><b>Volume:</b> 344 m³<br><b>Peso Relativo:</b> 0.14 %<br><b>Coordenadas:</b> -25.4262165, 28.7045271</div>`)[0];
+                popup_ae28cf9160e331ed4fed63c02e721822.setContent(html_b798a0afa8c7b5fca203f59f09b88b81);
+            
+        
+
+        circle_marker_ec29f923f3ae01ec2d4487919169ed3e.bindPopup(popup_ae28cf9160e331ed4fed63c02e721822)
+        ;
+
+        
+    
+    
+            var circle_marker_078a5a03416ba8784ebfe9cab50f6448 = L.circleMarker(
+                [-27.5680556, 24.7452778],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.308, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_a2d2528fe35cff98f54dc32174c8b751 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fce4cb4e0a185c6986654e7bd8eff7a = $(`<div id="html_9fce4cb4e0a185c6986654e7bd8eff7a" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Taung<br><b>Volume:</b> 308 m³<br><b>Peso Relativo:</b> 0.12 %<br><b>Coordenadas:</b> -27.5680556, 24.7452778</div>`)[0];
+                popup_a2d2528fe35cff98f54dc32174c8b751.setContent(html_9fce4cb4e0a185c6986654e7bd8eff7a);
+            
+        
+
+        circle_marker_078a5a03416ba8784ebfe9cab50f6448.bindPopup(popup_a2d2528fe35cff98f54dc32174c8b751)
+        ;
+
+        
+    
+    
+            var circle_marker_8957b003069d468fb57f389e100f8c45 = L.circleMarker(
+                [-29.8359765, 30.846789],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.297, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_d07a001d90349fa991de3fd4bfc1a618 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b41ebdc359c751ba3bb9b9e99ee83b4 = $(`<div id="html_7b41ebdc359c751ba3bb9b9e99ee83b4" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Bushbuck Ridge<br><b>Volume:</b> 297 m³<br><b>Peso Relativo:</b> 0.12 %<br><b>Coordenadas:</b> -29.8359765, 30.846789</div>`)[0];
+                popup_d07a001d90349fa991de3fd4bfc1a618.setContent(html_7b41ebdc359c751ba3bb9b9e99ee83b4);
+            
+        
+
+        circle_marker_8957b003069d468fb57f389e100f8c45.bindPopup(popup_d07a001d90349fa991de3fd4bfc1a618)
+        ;
+
+        
+    
+    
+            var circle_marker_240011f7c85b84f3cf9527b184339314 = L.circleMarker(
+                [-33.883056, 18.7],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.286, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_4590f831f1491d844a829e73586bd3f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7ce6ee4e3d684beef74a4b8904bf005 = $(`<div id="html_a7ce6ee4e3d684beef74a4b8904bf005" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Brackenfell<br><b>Volume:</b> 286 m³<br><b>Peso Relativo:</b> 0.11 %<br><b>Coordenadas:</b> -33.883056, 18.7</div>`)[0];
+                popup_4590f831f1491d844a829e73586bd3f5.setContent(html_a7ce6ee4e3d684beef74a4b8904bf005);
+            
+        
+
+        circle_marker_240011f7c85b84f3cf9527b184339314.bindPopup(popup_4590f831f1491d844a829e73586bd3f5)
+        ;
+
+        
+    
+    
+            var circle_marker_94deb81368637ec547adfaa91a37a187 = L.circleMarker(
+                [-25.1675, 29.392778],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.265, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_3d64c4fbb6ba87aa2c72ff990b868b6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13be24d0348a5a52f24d760b52512dc2 = $(`<div id="html_13be24d0348a5a52f24d760b52512dc2" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Groblersdal<br><b>Volume:</b> 265 m³<br><b>Peso Relativo:</b> 0.1 %<br><b>Coordenadas:</b> -25.1675, 29.392778</div>`)[0];
+                popup_3d64c4fbb6ba87aa2c72ff990b868b6a.setContent(html_13be24d0348a5a52f24d760b52512dc2);
+            
+        
+
+        circle_marker_94deb81368637ec547adfaa91a37a187.bindPopup(popup_3d64c4fbb6ba87aa2c72ff990b868b6a)
+        ;
+
+        
+    
+    
+            var circle_marker_bb0be84666b92b09585152800daec2ca = L.circleMarker(
+                [-26.707778, 27.095833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.263, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_0c72f69a426fd33106409abdc53c07d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2cff04b37002cc527602537e3db4ebb = $(`<div id="html_f2cff04b37002cc527602537e3db4ebb" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Potchefstroom<br><b>Volume:</b> 263 m³<br><b>Peso Relativo:</b> 0.1 %<br><b>Coordenadas:</b> -26.707778, 27.095833</div>`)[0];
+                popup_0c72f69a426fd33106409abdc53c07d6.setContent(html_f2cff04b37002cc527602537e3db4ebb);
+            
+        
+
+        circle_marker_bb0be84666b92b09585152800daec2ca.bindPopup(popup_0c72f69a426fd33106409abdc53c07d6)
+        ;
+
+        
+    
+    
+            var circle_marker_09b39f77ee1118358d4bc7bda57c39f3 = L.circleMarker(
+                [-26.812596, 30.4392033],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.21, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_206b3225f4fe5010f8b4d3dd425b3cbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_010e0d92fa5a182472eebf4f029acd72 = $(`<div id="html_010e0d92fa5a182472eebf4f029acd72" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Panbult<br><b>Volume:</b> 210 m³<br><b>Peso Relativo:</b> 0.08 %<br><b>Coordenadas:</b> -26.812596, 30.4392033</div>`)[0];
+                popup_206b3225f4fe5010f8b4d3dd425b3cbb.setContent(html_010e0d92fa5a182472eebf4f029acd72);
+            
+        
+
+        circle_marker_09b39f77ee1118358d4bc7bda57c39f3.bindPopup(popup_206b3225f4fe5010f8b4d3dd425b3cbb)
+        ;
+
+        
+    
+    
+            var circle_marker_bca5db9c9f95b086ed1b1a37ca8b269d = L.circleMarker(
+                [-32.906738, 17.990037],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.201, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_8a6287bb68687e403a7b470880cc815f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a385c1cc72b90c1bd7583430114ae6b = $(`<div id="html_2a385c1cc72b90c1bd7583430114ae6b" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Vredenburg<br><b>Volume:</b> 201 m³<br><b>Peso Relativo:</b> 0.08 %<br><b>Coordenadas:</b> -32.906738, 17.990037</div>`)[0];
+                popup_8a6287bb68687e403a7b470880cc815f.setContent(html_2a385c1cc72b90c1bd7583430114ae6b);
+            
+        
+
+        circle_marker_bca5db9c9f95b086ed1b1a37ca8b269d.bindPopup(popup_8a6287bb68687e403a7b470880cc815f)
+        ;
+
+        
+    
+    
+            var circle_marker_1b7db81d8dd0d3d2fa3dec1ce7702623 = L.circleMarker(
+                [-31.589075, 28.789145],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.196, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_effba243e18b3f20f805c34d5a50702f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3fecc8806f03b070f5b6080ea298788 = $(`<div id="html_a3fecc8806f03b070f5b6080ea298788" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Mthatha<br><b>Volume:</b> 196 m³<br><b>Peso Relativo:</b> 0.08 %<br><b>Coordenadas:</b> -31.589075, 28.789145</div>`)[0];
+                popup_effba243e18b3f20f805c34d5a50702f.setContent(html_a3fecc8806f03b070f5b6080ea298788);
+            
+        
+
+        circle_marker_1b7db81d8dd0d3d2fa3dec1ce7702623.bindPopup(popup_effba243e18b3f20f805c34d5a50702f)
+        ;
+
+        
+    
+    
+            var circle_marker_b3d86b2ed7db80819c15afc9432e36f2 = L.circleMarker(
+                [-31.8959936, 26.8709452],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.143, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_bd9894f1b83fb96b27009aa748e58e55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49d4bd6f4aaf96956c8a544a4c299b15 = $(`<div id="html_49d4bd6f4aaf96956c8a544a4c299b15" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Queenstown<br><b>Volume:</b> 143 m³<br><b>Peso Relativo:</b> 0.06 %<br><b>Coordenadas:</b> -31.8959936, 26.8709452</div>`)[0];
+                popup_bd9894f1b83fb96b27009aa748e58e55.setContent(html_49d4bd6f4aaf96956c8a544a4c299b15);
+            
+        
+
+        circle_marker_b3d86b2ed7db80819c15afc9432e36f2.bindPopup(popup_bd9894f1b83fb96b27009aa748e58e55)
+        ;
+
+        
+    
+    
+            var circle_marker_42b5b01cfcaadc33320b49e895f4422e = L.circleMarker(
+                [-28.8626452, 18.6690683],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.128, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_ac1a97431911dc7e8fc69bb5f55ae5b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0fdbfd76cd45617d91d35993a83decd = $(`<div id="html_a0fdbfd76cd45617d91d35993a83decd" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Witbank<br><b>Volume:</b> 128 m³<br><b>Peso Relativo:</b> 0.05 %<br><b>Coordenadas:</b> -28.8626452, 18.6690683</div>`)[0];
+                popup_ac1a97431911dc7e8fc69bb5f55ae5b4.setContent(html_a0fdbfd76cd45617d91d35993a83decd);
+            
+        
+
+        circle_marker_42b5b01cfcaadc33320b49e895f4422e.bindPopup(popup_ac1a97431911dc7e8fc69bb5f55ae5b4)
+        ;
+
+        
+    
+    
+            var circle_marker_51da892525a46d9602946b4978bd0391 = L.circleMarker(
+                [-25.863611, 25.658611],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.123, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_b9428fee65c93f28fb92d6c1a34cb903 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17e906b697435392cff4d12bac259e33 = $(`<div id="html_17e906b697435392cff4d12bac259e33" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Mafikeng<br><b>Volume:</b> 123 m³<br><b>Peso Relativo:</b> 0.05 %<br><b>Coordenadas:</b> -25.863611, 25.658611</div>`)[0];
+                popup_b9428fee65c93f28fb92d6c1a34cb903.setContent(html_17e906b697435392cff4d12bac259e33);
+            
+        
+
+        circle_marker_51da892525a46d9602946b4978bd0391.bindPopup(popup_b9428fee65c93f28fb92d6c1a34cb903)
+        ;
+
+        
+    
+    
+            var circle_marker_d4ca2d71b68af2497b99ea903e64c76f = L.circleMarker(
+                [-26.2550033, 28.4373147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.117, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_5a2581306c9a294fd0ac9e0b42ca23e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d81a61d00e7f9ce4f727cbfd340ce42a = $(`<div id="html_d81a61d00e7f9ce4f727cbfd340ce42a" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Springs<br><b>Volume:</b> 117 m³<br><b>Peso Relativo:</b> 0.05 %<br><b>Coordenadas:</b> -26.2550033, 28.4373147</div>`)[0];
+                popup_5a2581306c9a294fd0ac9e0b42ca23e7.setContent(html_d81a61d00e7f9ce4f727cbfd340ce42a);
+            
+        
+
+        circle_marker_d4ca2d71b68af2497b99ea903e64c76f.bindPopup(popup_5a2581306c9a294fd0ac9e0b42ca23e7)
+        ;
+
+        
+    
+    
+            var circle_marker_9edb07a3a76f7f93d3dc6de4d6d5f8ae = L.circleMarker(
+                [-27.7544581, 29.932561],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.101, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_9ec419e31e49a111e56a6598c2191331 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3eca13124a053c288761992904d46cc5 = $(`<div id="html_3eca13124a053c288761992904d46cc5" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Newcastle<br><b>Volume:</b> 101 m³<br><b>Peso Relativo:</b> 0.04 %<br><b>Coordenadas:</b> -27.7544581, 29.932561</div>`)[0];
+                popup_9ec419e31e49a111e56a6598c2191331.setContent(html_3eca13124a053c288761992904d46cc5);
+            
+        
+
+        circle_marker_9edb07a3a76f7f93d3dc6de4d6d5f8ae.bindPopup(popup_9ec419e31e49a111e56a6598c2191331)
+        ;
+
+        
+    
+    
+            var circle_marker_39854910e1be13426693160d829b921a = L.circleMarker(
+                [-33.6396026, 19.4411488],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.06, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_9141d209c03ae59dc21b5497a7183bfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3abb08cf6c2619e2a1bf18753a87f06 = $(`<div id="html_f3abb08cf6c2619e2a1bf18753a87f06" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Worcester West.Cape<br><b>Volume:</b> 60 m³<br><b>Peso Relativo:</b> 0.02 %<br><b>Coordenadas:</b> -33.6396026, 19.4411488</div>`)[0];
+                popup_9141d209c03ae59dc21b5497a7183bfc.setContent(html_f3abb08cf6c2619e2a1bf18753a87f06);
+            
+        
+
+        circle_marker_39854910e1be13426693160d829b921a.bindPopup(popup_9141d209c03ae59dc21b5497a7183bfc)
+        ;
+
+        
+    
+    
+            var circle_marker_a8442a9dfb572362bfd42a4d2e129516 = L.circleMarker(
+                [-25.381, 30.9883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_7183b40fa503ff875f5d0e84cdba3c17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b83ecf6f1fdcdca14b0865ce029cc13 = $(`<div id="html_0b83ecf6f1fdcdca14b0865ce029cc13" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Rocky's Drift<br><b>Volume:</b> 50 m³<br><b>Peso Relativo:</b> 0.02 %<br><b>Coordenadas:</b> -25.381, 30.9883</div>`)[0];
+                popup_7183b40fa503ff875f5d0e84cdba3c17.setContent(html_0b83ecf6f1fdcdca14b0865ce029cc13);
+            
+        
+
+        circle_marker_a8442a9dfb572362bfd42a4d2e129516.bindPopup(popup_7183b40fa503ff875f5d0e84cdba3c17)
+        ;
+
+        
+    
+    
+            var circle_marker_4faf5cda293588a79f8b7347039dbbad = L.circleMarker(
+                [-25.685776, 25.38781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.048, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_e134e0b8e54475af5858acc6c3cce86c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_368b0c4ad8d610a97a47156655fa4555 = $(`<div id="html_368b0c4ad8d610a97a47156655fa4555" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Hebron<br><b>Volume:</b> 48 m³<br><b>Peso Relativo:</b> 0.02 %<br><b>Coordenadas:</b> -25.685776, 25.38781</div>`)[0];
+                popup_e134e0b8e54475af5858acc6c3cce86c.setContent(html_368b0c4ad8d610a97a47156655fa4555);
+            
+        
+
+        circle_marker_4faf5cda293588a79f8b7347039dbbad.bindPopup(popup_e134e0b8e54475af5858acc6c3cce86c)
+        ;
+
+        
+    
+    
+            var circle_marker_7575c85e9383ee3733d0b46efef43561 = L.circleMarker(
+                [-27.388889, 26.616667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.041, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_fa8d19566af2a022cc204e41076b79bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3aff9e90c6064a46813b7e527b5fc6c5 = $(`<div id="html_3aff9e90c6064a46813b7e527b5fc6c5" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Bothaville<br><b>Volume:</b> 41 m³<br><b>Peso Relativo:</b> 0.02 %<br><b>Coordenadas:</b> -27.388889, 26.616667</div>`)[0];
+                popup_fa8d19566af2a022cc204e41076b79bc.setContent(html_3aff9e90c6064a46813b7e527b5fc6c5);
+            
+        
+
+        circle_marker_7575c85e9383ee3733d0b46efef43561.bindPopup(popup_fa8d19566af2a022cc204e41076b79bc)
+        ;
+
+        
+    
+    
+            var circle_marker_07cfead0b301fbe6b6b72f327ba38adb = L.circleMarker(
+                [-25.326389, 31.014444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.028, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_822631b2bcd913f6b32a78f492ae61f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d304d230f935d2a9d7a20803061ac3fa = $(`<div id="html_d304d230f935d2a9d7a20803061ac3fa" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> White River<br><b>Volume:</b> 28 m³<br><b>Peso Relativo:</b> 0.01 %<br><b>Coordenadas:</b> -25.326389, 31.014444</div>`)[0];
+                popup_822631b2bcd913f6b32a78f492ae61f6.setContent(html_d304d230f935d2a9d7a20803061ac3fa);
+            
+        
+
+        circle_marker_07cfead0b301fbe6b6b72f327ba38adb.bindPopup(popup_822631b2bcd913f6b32a78f492ae61f6)
+        ;
+
+        
+    
+    
+            var circle_marker_6ce845748b1d403d0e11cff0a79a0edd = L.circleMarker(
+                [-28.746111, 31.897222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.014, "stroke": true, "weight": 3}
+            ).addTo(map_55b04a7ac6f2db68ffbbed6f2024042b);
+        
+    
+        var popup_dccd7920cb049329911f61540c2fce64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bab6c4a9d7d63a7c166ffbc582a8fc19 = $(`<div id="html_bab6c4a9d7d63a7c166ffbc582a8fc19" style="width: 100.0%; height: 100.0%;"><b>Destino:</b> Empangeni<br><b>Volume:</b> 14 m³<br><b>Peso Relativo:</b> 0.01 %<br><b>Coordenadas:</b> -28.746111, 31.897222</div>`)[0];
+                popup_dccd7920cb049329911f61540c2fce64.setContent(html_bab6c4a9d7d63a7c166ffbc582a8fc19);
+            
+        
+
+        circle_marker_6ce845748b1d403d0e11cff0a79a0edd.bindPopup(popup_dccd7920cb049329911f61540c2fce64)
+        ;
+
+        
+    
+</script>
+</html>
